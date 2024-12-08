@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+    <h1>Portafolio Jeremy Umanante</h1>
+    <nav>
+        <ul>
+            <li><a href="#intro">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#mensaje">Enviar mensaje</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2 id="intro">Introducción</h2>
+<p>Bienvenido a mi portafolio. Soy un estudiante de sistemas de información. Aquí podrás conocer más sobre mí, mis habilidades, y algunos de los proyectos en los cuales me gustaria trabajar en el futuro.</p>
+    <img src="Foto.jpeg" alt="Foto de Jeremy Umanante">
+    <h2 id="sobre-mi">Sobre mí</h2>
+    <p>Hola, soy Jeremy Alexander Umanante Torres, estudiante de la Universidad Técnica de Babahoyo en la carrera de Sistemas de Información, tengo 19 años, actualmente quiero fortalecer mis conocimiento relacionados con esta carrera y me gustaria aprender mucho para lograr ser un profesional con amplio conocimiento en este campo.</p>
+    <h2 id="habilidades">Habilidades o competencias</h2>
+    <ol>
+        <li>Conocimiento básicon en programación</li>
+        <li>Manejo de herramientas tecnológicas</li>
+        <li>Pensamiento Lógico</li>
+        <li>Creatividad en solución de problemas</li>
+        <li>Trabajo en equipo</li>
+        <li>Pensamiento crítico</li>
+        <li>Facilidad de comunicación</li>
+        <li>Autodisciplina y organización</li>
+    </ol>
+    <h2 id="proyectos">Galeria de proyectos (Ficticios)</h2>
+    <ol>
+        <li>Gestor de Tareas</li>
+        <p>Una aplicación de escritorio diseñada para ayudar a los usuarios a organizar y gestionar sus tareas diarias de manera eficiente. Permite agregar nuevas tareas con detalles como título, descripción y fecha de vencimiento, además de editar y eliminar tareas según sea necesario. </p>
+        <li>Sitio Web de Portafolio</li>
+        <p>Sitio web personal desarrollado para mostrar informacion personal,  El sitio cuenta con varias secciones, incluyendo una sección de presentación donde se destaca información sobre el usuario, una sección de habilidades que lista las tecnologías y lenguajes dominados, y una sección de contacto con un formulario para facilitar la comunicación. El diseño del sitio es responsivo, adaptándose a dispositivos móviles y de escritorio, y utiliza efectos visuales como animaciones y transiciones para mejorar la experiencia del visitante.</p>
+        <li>Calculadora de Expresiones Matemáticas</li>
+        <p>Una calculadora que puede resolver tanto operaciones matemáticas básicas (suma, resta, multiplicación, división) como expresiones más complejas, incluyendo el uso de paréntesis y operadores matemáticos combinados. La aplicación cuenta con una interfaz de usuario sencilla y un motor de cálculo que analiza y evalúa expresiones en notación infija.</p>
+    </ol>
+    <h2 id="contacto">Página de contacto</h2>
+    <style>
+        table, th, td, caption{
+            border: 1px solid black
+        }
+    </style>
+   
+    <table>
+        <!-- Tabla de contacto -->
+        <tr>
+            <caption>Tabla con Celda Principal</caption>
+        </tr>
+        <!-- Tres filas con dos columnas -->
+        <tr>
+            <td>Nombres</td>
+            <td>Jeremy Alexander Umanante Torres</td>
+        </tr>
+        <tr>
+            <td>Teléfono</td>
+            <td>0969425584</td>
+        </tr>
+        <tr>
+            <td>Correo</td>
+            <td>jeremyumanante123@gmail.com</td>
+        </tr>
+    </table>
+    <h2 id="mensaje"> Envia un mensaje</h2>
+    <form action="enviar_mensaje.php" method="post">
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+</main>
+<footer>
+    <p>© 2024 Mi portafolio personal. Todos los derechos reservados.</p>
+    <p>Contacto: jeremyumanante123@gmail.com</p>
+</footer>
+
+</body>
+</html>
